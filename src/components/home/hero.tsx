@@ -42,9 +42,6 @@ const Hero = () => {
 					{/* Unique brand presentation */}
 					<div className="mb-12">
 						<div className="mb-6 inline-flex items-center gap-3">
-							<div className="from-primary to-secondary flex h-12 w-12 rotate-12 transform items-center justify-center rounded-2xl bg-gradient-to-br">
-								<div className="bg-primary-foreground h-6 w-6 -rotate-12 transform rounded-lg"></div>
-							</div>
 							<h1 className="from-primary via-secondary to-accent bg-gradient-to-r bg-clip-text text-6xl font-black text-transparent md:text-8xl">
 								Oryntal
 							</h1>
