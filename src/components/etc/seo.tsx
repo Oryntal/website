@@ -58,11 +58,10 @@ const generateMetadata = ({
 			]
 		},
 		twitter: {
-			card: 'summary_large_image',
 			title,
 			description,
 			images: [image ?? logo],
-			creator: '@Purrquinox'
+			creator: '@heypurrquinox'
 		},
 		icons: {
 			icon: [
