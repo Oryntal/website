@@ -1,0 +1,45 @@
+{
+	"background_color": "#BCA7E8",
+	"description": "Welcome to Oryntal, an inclusive AI-powered platform by Purrquinox where autistic individuals can share their passions, express themselves, and connect in a safe and supportive space.",
+	"dir": "auto",
+	"display": "standalone",
+	"name": "Oryntal AI",
+	"orientation": "portrait-primary",
+	"scope": "/",
+	"short_name": "Oryntal",
+	"start_url": "/?source=pwa",
+	"id": "/?source=pwa",
+	"theme_color": "#BCA7E8",
+	"categories": [
+		"belonging",
+		"safe space",
+		"expression",
+		"interests",
+		"passions",
+		"connection",
+		"understanding",
+		"supportive AI",
+		"gentle correction",
+		"accessibility-first",
+		"community",
+		"authenticity"
+	],
+	"display_override": ["standalone", "window-controls-overlay"],
+	"screenshots": [],
+	"icons": [
+		{
+			"src": "/logo.png",
+			"type": "image/png",
+			"sizes": "220x220"
+		}
+	],
+	"shortcuts": [
+		{
+			"name": "Create Conversation",
+			"url": "https://oryntal.xyz/chat",
+			"description": "Create an Oryntal AI Conversation."
+		}
+	],
+	"lang": "en",
+	"prefer_related_applications": false
+}
