@@ -1,5 +1,5 @@
 import type React from 'react';
-import type { Metadata } from 'next';
+import generateMetadata from '@/components/etc/seo';
 import { Geist } from 'next/font/google';
 import { Manrope } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
@@ -18,11 +18,11 @@ const manrope = Manrope({
 	variable: '--font-manrope'
 });
 
-export const metadata: Metadata = {
-	title: 'Oryntal - Your Safe Space for Expression',
+export const metadata = generateMetadata({
+	title: 'Oryntal AI - Your Safe Space for Expression',
 	description:
-		'AI-powered platform for autistic people to express themselves, share special interests, and connect authentically.'
-};
+		'Oryntal AI by Purrquinox is an AI-powered community designed for autistic people to explore passions, express themselves, and connect in a safe, inclusive space built for belonging.'
+});
 
 const RootLayout = ({
 	children
