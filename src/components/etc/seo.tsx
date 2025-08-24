@@ -51,9 +51,9 @@ const generateMetadata = ({
 			images: [
 				{
 					url: image ?? logo,
-					width: 1200,
-					height: 630,
-					alt: 'Oryntal Preview Image'
+					width: 200,
+					height: 200,
+					alt: 'Oryntal AI Logo'
 				}
 			]
 		},
